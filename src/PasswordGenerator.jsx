@@ -2,7 +2,7 @@ import { useState, useEffect,useCallback } from 'react';
 
 const PasswordGenerator = () => {
     const [password, setPassword] = useState('');
-    const [length, setLength] = useState(12);
+    const [length, setLength] = useState(8);
     const [includeNumbers, setIncludeNumbers] = useState(false);
     const [includeSpecialChars, setIncludeSpecialChars] = useState(false);
 
